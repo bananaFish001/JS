@@ -30,3 +30,30 @@ const myFunction = function(){
 myFunction();
 
 console.log(typeof bigNumbers)
+
+let years = 45
+console.log(typeof years)
+
+// Stack(Primitive) and Heap(Non-Primitive) memory 
+// Example of Stack(Primitive) memory.
+// Changes made here are not refleced in original storage like myManga.
+let myManga = "Vinland Saga"
+anotherManga = myManga
+anotherManga = "HolyLand"
+
+console.log(myManga)
+console.log(anotherManga)
+
+// Example of Heap or Non-Primitive memory.
+// The changes taking place here are refleced in the original storage like userOne object
+
+let userOne = {
+  name: "Miyamoto",
+  eMail: "musashi@gmail.com"
+}
+
+let userTwo = userOne
+
+userTwo.eMail = "greatest@gmail.com"
+
+console.log(userOne.eMail)
