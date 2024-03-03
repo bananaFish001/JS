@@ -21,7 +21,7 @@ console.log(allGen)
 
 const weirdArray = [1, 2, 3, [4, 5, 6], 8, [9, 7, [4, 5]]]
 const nonWeirdArray = weirdArray.flat(Infinity)
-console.log(nonWeirdArray)
+console.log("hello",nonWeirdArray)
 
 
 console.log(Array.isArray("RajShekharSingh")) // Tells us that string insde is not an array which is obvious
