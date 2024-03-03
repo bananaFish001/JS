@@ -7,12 +7,13 @@ twitterUser.id = "123abc"
 twitterUser.name = "Titus Andronicus"
 twitterUser.isLoggedIn = false
 
+/*
 console.log(twitterUser)
 console.log(Object.keys(twitterUser))
 console.log(Object.values(twitterUser))
 console.log(Object.entries(twitterUser))
 console.log(twitterUser.hasOwnProperty('isLoggedIn'))
-
+*/
 
 const regularUser = {
   email: "some@gmail.com",
@@ -50,3 +51,13 @@ const user = [
 ]
 
 //console.log(user[1].email)
+
+
+const course = {
+  courseName: "Learing Backend",
+  coursePrice: "Free",
+  courseInstructor: "self study"
+}
+
+const {courseInstructor: teach} = course
+console.log(teach)
