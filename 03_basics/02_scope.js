@@ -43,6 +43,6 @@ function addOne(num){
 }
 
 addTwo(5) // Cannot be accessed by addTwo function
-function addTwo(num){
+const addTwo = function (num){
   return num + 2
 }
